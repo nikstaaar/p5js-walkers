@@ -10,10 +10,10 @@ function setup() {
 }
 
 function draw() {
-  // background(0);
-  // translate(width/2, height/2);
-  // rotate(frameCount/10%TWO_PI)
-  // circle(20, 0, 40);
+  background(0);
+  translate(width/2, height/2);
+  rotate(frameCount/10%TWO_PI)
+  circle(20, 0, 40);
 }
 
 function incomingMouse(data) {
